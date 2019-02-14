@@ -1,0 +1,11 @@
+Package: messentials
+Title: Essential Functions for Data Wrangling
+Version: 0.1
+Authors@R: person("Michael", "Windisch", email = "michael.windisch@unido.org", role = c("aut", "cre"))
+Description: Currently contains two functions: suma(), an alternative version of sum(x, na.rm = T) and fct_combineall(), a function that makes it easier to add "Totals" for data at different factor levels.
+Depends: R (>= 3.4.1)
+Imports: dplyr, forcats, magrittr, rlang
+License: open
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
